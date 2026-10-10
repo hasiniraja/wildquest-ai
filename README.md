@@ -12,7 +12,7 @@ WildQuest AI generates short, personalized, safe outdoor quests (e.g. *"find 3 d
 
 | Layer | Technology |
 |---|---|
-| Inference | Ollama + `gemma3:12b` (local) |
+| Inference | Ollama + `gemma3:4b` (local) |
 | Backend | FastAPI + Pydantic (Python 3.11+) |
 | Frontend | React + Vite + Tailwind CSS |
 | Storage | Browser `localStorage` (quest journal) |
@@ -49,8 +49,8 @@ brew install ollama
 ### 2 — Pull the model
 
 ```bash
-# Recommended: gemma3:12b  (8.2 GB — runs well on 16 GB Apple Silicon)
-ollama pull gemma3:12b
+# Recommended: gemma3:4b  (8.2 GB — runs well on 16 GB Apple Silicon)
+ollama pull gemma3:4b
 
 # Lighter alternative if disk/RAM is tight:
 # ollama pull gemma3:4b   (3.4 GB)
@@ -117,7 +117,7 @@ Browser (React)
 FastAPI backend
     |  Prompt template -> Ollama HTTP API
     v
-Ollama (gemma3:12b, local)
+Ollama (gemma3:4b, local)
     |  Raw JSON string
     v
 Pydantic validation (up to 2 retries)
