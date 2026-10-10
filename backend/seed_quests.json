@@ -1,0 +1,161 @@
+[
+  {
+    "title": "Leaf Shape Detective",
+    "description": "Wander through the park and discover how many different leaf shapes you can find in 20 minutes. Observe carefully — nature hides its patterns in plain sight.",
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "steps": [
+      "Choose a starting point near a cluster of trees or bushes.",
+      "Walk slowly and look at leaves on low branches and the ground.",
+      "Find at least three distinctly different leaf shapes — pointed, round, lobed.",
+      "For each shape, notice the veins and edges without picking anything.",
+      "At the end, pick a quiet spot and try to sketch the shapes from memory."
+    ],
+    "things_to_notice": [
+      "How veins branch outward from the stem like tiny rivers",
+      "Whether leaves are smooth, fuzzy, or waxy to the eye",
+      "How light filters differently through thick vs. thin leaves"
+    ],
+    "safety_note": "Stay on marked paths. Watch your footing on uneven ground. Do not handle fallen branches.",
+    "screen_free_tip": "Challenge yourself to memorise one leaf's exact shape — no photo allowed!"
+  },
+  {
+    "title": "Garden Color Palette",
+    "description": "Turn your garden into an art gallery! Find as many different colors as you can among flowers, stems, and soil in just 15 minutes.",
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "steps": [
+      "Walk around the garden perimeter slowly, eyes wide open.",
+      "Count how many distinct colors you can spot among plants and flowers.",
+      "Pick the three most surprising colors and remember exactly where you saw them.",
+      "Look for colors hiding in unexpected places: soil, bark edges, insect wings."
+    ],
+    "things_to_notice": [
+      "Colors that appear in more than one spot — nature loves to repeat itself",
+      "How the same flower can look lighter or darker in sun vs. shade",
+      "Tiny pops of color you'd miss if you were walking fast"
+    ],
+    "safety_note": "Watch for low branches at eye level and uneven ground. Stay within the garden boundary.",
+    "screen_free_tip": "See how many colors you can name without using your camera — use imagination instead of apps."
+  },
+  {
+    "title": "Trail Soundscape Journey",
+    "description": "Put your ears in charge. Walk a short section of trail and build a mental map of every sound you hear, near and far.",
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "steps": [
+      "Stand still at the trailhead for two minutes and just listen before you move.",
+      "Walk at half your normal pace, stopping every 5 minutes to listen.",
+      "Identify at least five distinct sounds: wind, bird calls, rustling, footsteps, distant voices.",
+      "Try to figure out the direction of each sound without turning to look.",
+      "At the halfway point, stand still again for a full minute of silence."
+    ],
+    "things_to_notice": [
+      "How sounds change as you move deeper into the trail",
+      "Whether the silence itself has texture — never fully quiet",
+      "The rhythm of your own breathing and footsteps"
+    ],
+    "safety_note": "Stay on the marked trail. Tell someone your route before you go. Stay aware of other trail users.",
+    "screen_free_tip": "Leave headphones behind — your ears are your only instrument today."
+  },
+  {
+    "title": "Street Texture Safari",
+    "description": "Discover how many different textures line the streets of your neighbourhood. The city is a tactile museum hiding in plain sight.",
+    "duration_minutes": 20,
+    "difficulty": "easy",
+    "steps": [
+      "Choose a block or short street loop you know well.",
+      "Look for textures on walls, fences, pavement, and tree bark — observe with your eyes.",
+      "Find at least five completely different textures and describe each in one word.",
+      "Look up — textures appear on overhead structures, ledges, and rooflines too.",
+      "Finish by ranking your top three most interesting textures."
+    ],
+    "things_to_notice": [
+      "Smooth vs. rough surfaces and what causes the difference",
+      "Patterns in brickwork, pavement cracks, or weathered wood grain",
+      "How sunlight changes the appearance of the same texture"
+    ],
+    "safety_note": "Stay on the pavement. Follow road crossing rules. Keep aware of cyclists and vehicles.",
+    "screen_free_tip": "Describe each texture to yourself in words — this builds sharper observation skills than a photo ever would."
+  },
+  {
+    "title": "Backyard Bug Watch",
+    "description": "Turn your backyard into a wildlife documentary! Observe insects going about their daily lives without disturbing them.",
+    "duration_minutes": 15,
+    "difficulty": "easy",
+    "steps": [
+      "Find a patch of grass, a plant, or a log and crouch down quietly.",
+      "Stay still for two full minutes and see what moves around you.",
+      "Count how many different types of insects you can spot.",
+      "Watch one insect for a full 60 seconds — where does it go, what does it do?"
+    ],
+    "things_to_notice": [
+      "How insects move — do they hop, crawl, fly, or scurry?",
+      "Whether you can spot any insects carrying something",
+      "The way an insect reacts when your shadow crosses it"
+    ],
+    "safety_note": "Observe only — do not touch or disturb any insects or their nests. If you see a wasp or bee nest, move away calmly.",
+    "screen_free_tip": "Narrate what you see out loud in a whisper — you're the nature documentary presenter today."
+  },
+  {
+    "title": "Sky Watcher's Quest",
+    "description": "Lie on your back, look straight up, and discover the sky as a living, moving canvas. Clouds, birds, and light are your show.",
+    "duration_minutes": 45,
+    "difficulty": "medium",
+    "steps": [
+      "Find a clear, open grassy area in the park with a wide sky view.",
+      "Lie flat on your back on dry grass and let your eyes adjust upward.",
+      "Observe cloud shapes for five minutes — name each one as it reminds you of something.",
+      "Spot any birds in flight and watch their paths across the sky.",
+      "Track how cloud formations shift and change over 20 minutes.",
+      "In the final stretch, just rest and notice how the light changes in the sky."
+    ],
+    "things_to_notice": [
+      "Whether clouds are moving fast or slowly — which way is the wind going?",
+      "How the blue of the sky deepens or fades toward the horizon",
+      "The difference between thin wispy clouds and thick puffy ones"
+    ],
+    "safety_note": "Choose a dry, flat spot well away from trees and footpaths. Apply sunscreen if it is sunny. Do not stare at the sun.",
+    "screen_free_tip": "No photo can capture an hour of sky — let the movement live only in your memory."
+  },
+  {
+    "title": "Nature's Pattern Hunt",
+    "description": "Mathematicians call it fractal geometry. You will call it amazing. Search the trail for repeating patterns hidden in plants and natural structures.",
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "steps": [
+      "Begin at the trailhead and walk slowly, eyes scanning at every level.",
+      "Look for repeating patterns: spirals in seed heads, branching in twigs, rows in bark.",
+      "Find at least four different pattern types and fix each in your memory.",
+      "Compare two different plants — can you spot a similar pattern in both?",
+      "At the halfway point, describe your favourite pattern aloud to yourself."
+    ],
+    "things_to_notice": [
+      "How twig branching mirrors the shape of the whole plant",
+      "Repeating curves and spirals that appear in flowers and seed heads",
+      "Parallel lines in grass blades vs. the branching lines in a leaf"
+    ],
+    "safety_note": "Stay on the marked trail at all times. Do not step off the path to reach plants. Watch footing on roots and uneven surfaces.",
+    "screen_free_tip": "Instead of photographing a pattern, draw it in the air with your finger — it lodges deeper in memory."
+  },
+  {
+    "title": "Bird Behaviour Observer",
+    "description": "Choose one spot, sit quietly, and let the birds come to you. This quest is about patience and sharp observation, not distance covered.",
+    "duration_minutes": 30,
+    "difficulty": "medium",
+    "steps": [
+      "Find a park bench or quiet grassy spot near trees or bushes.",
+      "Sit completely still and wait two full minutes before doing anything else.",
+      "Count how many different bird calls you can hear without seeing the birds.",
+      "When you spot a bird, observe its behaviour for at least one minute.",
+      "Notice how it moves, what it reacts to, and whether other birds approach."
+    ],
+    "things_to_notice": [
+      "Whether birds seem aware of you — do they face you or ignore you?",
+      "The difference in call between birds near the ground and those in the canopy",
+      "How a bird's body language changes when another bird lands nearby"
+    ],
+    "safety_note": "Stay seated or standing on the path — do not approach birds or move toward them. Maintain a respectful distance.",
+    "screen_free_tip": "Count bird calls on your fingers instead of recording them — your ears are more reliable than you think."
+  }
+]

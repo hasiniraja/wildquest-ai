@@ -1,0 +1,47 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+*.env
+
+# ── Node / Frontend ─────────────────────────────────────
+node_modules/
+dist/
+.cache/
+.parcel-cache/
+*.local
+
+# ── Vite / React build output ───────────────────────────
+frontend/dist/
+frontend/.vite/
+
+# ── OS / Editor ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Logs ────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+
+# ── Secrets / credentials ───────────────────────────────
+.env
+.env.*
+secrets.json
+
+# ── Eval artefacts (results are gitignored; prompts.json IS tracked) ────────
+eval/results/

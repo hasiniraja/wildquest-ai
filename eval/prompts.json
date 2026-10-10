@@ -1,0 +1,373 @@
+[
+  {
+    "_id": 1,
+    "_split": "eval",
+    "_note": "EVAL ONLY — never include in training data. See eval/README.md.",
+    "duration_minutes": 10,
+    "energy_level": "low",
+    "setting": "backyard",
+    "interests": ["plants", "colors"],
+    "age_group": "kids"
+  },
+  {
+    "_id": 2,
+    "_split": "eval",
+    "duration_minutes": 10,
+    "energy_level": "low",
+    "setting": "garden",
+    "interests": ["sounds", "sky"],
+    "age_group": "kids"
+  },
+  {
+    "_id": 3,
+    "_split": "eval",
+    "duration_minutes": 10,
+    "energy_level": "medium",
+    "setting": "park",
+    "interests": ["insects", "textures"],
+    "age_group": "kids"
+  },
+  {
+    "_id": 4,
+    "_split": "eval",
+    "duration_minutes": 15,
+    "energy_level": "low",
+    "setting": "garden",
+    "interests": ["plants", "colors", "sounds"],
+    "age_group": "kids"
+  },
+  {
+    "_id": 5,
+    "_split": "eval",
+    "duration_minutes": 15,
+    "energy_level": "medium",
+    "setting": "backyard",
+    "interests": ["birds", "sky"],
+    "age_group": "kids"
+  },
+  {
+    "_id": 6,
+    "_split": "eval",
+    "duration_minutes": 20,
+    "energy_level": "high",
+    "setting": "park",
+    "interests": ["insects", "plants", "textures"],
+    "age_group": "kids"
+  },
+  {
+    "_id": 7,
+    "_split": "eval",
+    "duration_minutes": 30,
+    "energy_level": "medium",
+    "setting": "trail",
+    "interests": ["birds", "sounds"],
+    "age_group": "kids"
+  },
+  {
+    "_id": 8,
+    "_split": "eval",
+    "duration_minutes": 10,
+    "energy_level": "low",
+    "setting": "park",
+    "interests": ["colors", "sky"],
+    "age_group": "teens"
+  },
+  {
+    "_id": 9,
+    "_split": "eval",
+    "duration_minutes": 20,
+    "energy_level": "medium",
+    "setting": "street",
+    "interests": ["textures", "colors"],
+    "age_group": "teens"
+  },
+  {
+    "_id": 10,
+    "_split": "eval",
+    "duration_minutes": 30,
+    "energy_level": "high",
+    "setting": "trail",
+    "interests": ["plants", "insects", "sounds"],
+    "age_group": "teens"
+  },
+  {
+    "_id": 11,
+    "_split": "eval",
+    "duration_minutes": 45,
+    "energy_level": "high",
+    "setting": "park",
+    "interests": ["birds", "sky", "sounds"],
+    "age_group": "teens"
+  },
+  {
+    "_id": 12,
+    "_split": "eval",
+    "duration_minutes": 60,
+    "energy_level": "medium",
+    "setting": "trail",
+    "interests": ["plants", "textures"],
+    "age_group": "teens"
+  },
+  {
+    "_id": 13,
+    "_split": "eval",
+    "duration_minutes": 10,
+    "energy_level": "low",
+    "setting": "garden",
+    "interests": ["plants"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 14,
+    "_split": "eval",
+    "duration_minutes": 15,
+    "energy_level": "low",
+    "setting": "backyard",
+    "interests": ["birds", "sounds"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 15,
+    "_split": "eval",
+    "duration_minutes": 20,
+    "energy_level": "medium",
+    "setting": "park",
+    "interests": ["colors", "sky"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 16,
+    "_split": "eval",
+    "duration_minutes": 30,
+    "energy_level": "medium",
+    "setting": "street",
+    "interests": ["textures", "colors", "sounds"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 17,
+    "_split": "eval",
+    "duration_minutes": 45,
+    "energy_level": "medium",
+    "setting": "trail",
+    "interests": ["plants", "insects"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 18,
+    "_split": "eval",
+    "duration_minutes": 60,
+    "energy_level": "high",
+    "setting": "trail",
+    "interests": ["birds", "plants", "sounds"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 19,
+    "_split": "eval",
+    "duration_minutes": 60,
+    "energy_level": "high",
+    "setting": "park",
+    "interests": ["sky", "insects", "textures"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 20,
+    "_split": "eval",
+    "duration_minutes": 45,
+    "energy_level": "high",
+    "setting": "trail",
+    "interests": ["birds", "plants", "sky"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 21,
+    "_split": "eval",
+    "_note": "Tricky: single interest only",
+    "duration_minutes": 10,
+    "energy_level": "low",
+    "setting": "backyard",
+    "interests": ["sky"],
+    "age_group": "kids"
+  },
+  {
+    "_id": 22,
+    "_split": "eval",
+    "_note": "Tricky: single interest, long duration",
+    "duration_minutes": 60,
+    "energy_level": "high",
+    "setting": "trail",
+    "interests": ["sounds"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 23,
+    "_split": "eval",
+    "_note": "Tricky: street setting rarely done",
+    "duration_minutes": 20,
+    "energy_level": "low",
+    "setting": "street",
+    "interests": ["textures", "colors"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 24,
+    "_split": "eval",
+    "_note": "Tricky: short + high energy",
+    "duration_minutes": 10,
+    "energy_level": "high",
+    "setting": "park",
+    "interests": ["insects", "plants"],
+    "age_group": "teens"
+  },
+  {
+    "_id": 25,
+    "_split": "eval",
+    "_note": "Tricky: backyard + teens",
+    "duration_minutes": 30,
+    "energy_level": "medium",
+    "setting": "backyard",
+    "interests": ["birds", "insects", "sounds"],
+    "age_group": "teens"
+  },
+  {
+    "_id": 26,
+    "_split": "eval",
+    "_note": "Tricky: all 3 interests + kids + trail",
+    "duration_minutes": 20,
+    "energy_level": "medium",
+    "setting": "trail",
+    "interests": ["birds", "plants", "sounds"],
+    "age_group": "kids"
+  },
+  {
+    "_id": 27,
+    "_split": "eval",
+    "duration_minutes": 15,
+    "energy_level": "high",
+    "setting": "park",
+    "interests": ["sky", "colors"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 28,
+    "_split": "eval",
+    "duration_minutes": 45,
+    "energy_level": "low",
+    "setting": "garden",
+    "interests": ["plants", "textures", "colors"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 29,
+    "_split": "eval",
+    "duration_minutes": 30,
+    "energy_level": "low",
+    "setting": "park",
+    "interests": ["birds"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 30,
+    "_split": "eval",
+    "_note": "Tricky: kids + long duration",
+    "duration_minutes": 45,
+    "energy_level": "medium",
+    "setting": "park",
+    "interests": ["plants", "insects"],
+    "age_group": "kids"
+  },
+  {
+    "_id": 31,
+    "_split": "eval",
+    "duration_minutes": 20,
+    "energy_level": "low",
+    "setting": "garden",
+    "interests": ["sounds", "birds"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 32,
+    "_split": "eval",
+    "duration_minutes": 15,
+    "energy_level": "medium",
+    "setting": "street",
+    "interests": ["colors", "textures", "sky"],
+    "age_group": "teens"
+  },
+  {
+    "_id": 33,
+    "_split": "eval",
+    "duration_minutes": 60,
+    "energy_level": "low",
+    "setting": "garden",
+    "interests": ["plants", "colors"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 34,
+    "_split": "eval",
+    "_note": "Tricky: kids + high energy + short",
+    "duration_minutes": 10,
+    "energy_level": "high",
+    "setting": "backyard",
+    "interests": ["insects"],
+    "age_group": "kids"
+  },
+  {
+    "_id": 35,
+    "_split": "eval",
+    "duration_minutes": 30,
+    "energy_level": "high",
+    "setting": "trail",
+    "interests": ["sky", "sounds", "textures"],
+    "age_group": "teens"
+  },
+  {
+    "_id": 36,
+    "_split": "eval",
+    "duration_minutes": 20,
+    "energy_level": "high",
+    "setting": "park",
+    "interests": ["birds", "insects"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 37,
+    "_split": "eval",
+    "_note": "Tricky: low energy + trail (unusual combo)",
+    "duration_minutes": 45,
+    "energy_level": "low",
+    "setting": "trail",
+    "interests": ["sounds", "plants"],
+    "age_group": "adults"
+  },
+  {
+    "_id": 38,
+    "_split": "eval",
+    "duration_minutes": 15,
+    "energy_level": "low",
+    "setting": "street",
+    "interests": ["textures", "colors"],
+    "age_group": "kids"
+  },
+  {
+    "_id": 39,
+    "_split": "eval",
+    "duration_minutes": 60,
+    "energy_level": "medium",
+    "setting": "park",
+    "interests": ["birds", "plants", "sky"],
+    "age_group": "teens"
+  },
+  {
+    "_id": 40,
+    "_split": "eval",
+    "_note": "Tricky: adults + low energy + 60 min — patience/stillness quest",
+    "duration_minutes": 60,
+    "energy_level": "low",
+    "setting": "park",
+    "interests": ["sounds", "sky", "birds"],
+    "age_group": "adults"
+  }
+]

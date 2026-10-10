@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  body {
+    @apply bg-forest-950 text-stone-100 min-h-screen;
+    overscroll-behavior: none;
+  }
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Big tap-friendly primary button */
+  .btn-primary {
+    @apply w-full py-4 px-6 rounded-2xl bg-forest-500 text-white font-bold text-lg
+           active:scale-95 transition-all duration-150
+           focus:outline-none focus:ring-4 focus:ring-forest-400/50
+           disabled:opacity-40 disabled:cursor-not-allowed disabled:active:scale-100
+           shadow-lg shadow-forest-900/50;
+  }
+
+  /* Secondary ghost button */
+  .btn-secondary {
+    @apply w-full py-4 px-6 rounded-2xl border-2 border-forest-500 text-forest-400 font-bold text-lg
+           active:scale-95 transition-all duration-150
+           focus:outline-none focus:ring-4 focus:ring-forest-400/50
+           disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  /* Toggle chip — for selecting options */
+  .chip {
+    @apply flex items-center justify-center gap-2 py-3 px-4 rounded-xl border-2
+           font-semibold text-base transition-all duration-150 cursor-pointer
+           focus:outline-none focus:ring-4 focus:ring-forest-400/50
+           active:scale-95;
+  }
+  .chip-off {
+    @apply border-stone-700 bg-stone-900 text-stone-400;
+  }
+  .chip-on {
+    @apply border-forest-500 bg-forest-900 text-forest-300;
+  }
+
+  /* Card container */
+  .card {
+    @apply bg-stone-900/80 rounded-3xl p-6 border border-stone-800;
+  }
+
+  /* Section label */
+  .section-label {
+    @apply text-xs font-bold uppercase tracking-widest text-stone-500 mb-3;
+  }
+
+  /* Safety bar — always-visible strip */
+  .safety-bar {
+    @apply bg-amber-500/20 border border-amber-500/40 rounded-2xl px-4 py-3
+           text-amber-300 text-sm font-medium flex gap-2 items-start;
+  }
+}
+
+@layer utilities {
+  /* Pulse ring animation for Phone Away mode */
+  @keyframes pulse-ring {
+    0%   { transform: scale(0.95); opacity: 0.8; }
+    50%  { transform: scale(1.05); opacity: 0.4; }
+    100% { transform: scale(0.95); opacity: 0.8; }
+  }
+  .animate-pulse-ring {
+    animation: pulse-ring 3s ease-in-out infinite;
+  }
+
+  /* Fade in from below */
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-up {
+    animation: fade-up 0.4s ease-out both;
+  }
+
+  /* Step slide-in */
+  @keyframes slide-in {
+    from { opacity: 0; transform: translateX(24px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+  .animate-slide-in {
+    animation: slide-in 0.3s ease-out both;
+  }
+}
