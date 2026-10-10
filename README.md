@@ -1,3 +1,4 @@
+
 # 🌿 WildQuest AI
 
 > **Hacktoberfest 2026 — "Touch Grass" Challenge**
@@ -138,6 +139,3 @@ localStorage  (quest journal)
 
 ---
 
-## License
-
-MIT
