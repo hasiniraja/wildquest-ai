@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import logging
+import os
 import random
 import re
 import time
@@ -21,7 +22,7 @@ logger = logging.getLogger(__name__)
 # ── Config ─────────────────────────────────────────────────────────────────────
 
 OLLAMA_BASE_URL = "http://localhost:11434"
-MODEL_NAME = "gemma3:12b"
+MODEL_NAME = os.getenv("OLLAMA_MODEL", "gemma3:4b")
 MAX_ATTEMPTS = 3          # 1 initial + 2 retries
 OLLAMA_TIMEOUT_S = 120.0  # generous for slower machines
 

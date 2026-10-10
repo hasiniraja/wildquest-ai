@@ -124,7 +124,7 @@ def _try_parse(raw: str) -> tuple[dict | None, Quest | None, str]:
     try:
         quest = Quest.model_validate(data)
         return data, quest, ""
-    except Exception:
+    except Exception:  # noqa: BLE001
         return data, None, "schema"
 
 
@@ -238,7 +238,7 @@ def compute_metrics(results: list[dict], n_prompts: int) -> dict:
     p95_lat    = _p95(latencies)
 
     titles        = [r["title"] for r in results if r["title"]]
-    unique_titles = len(set(t.lower().strip() for t in titles))
+    unique_titles = len({t.lower().strip() for t in titles})
     variety_score = unique_titles / len(titles) if titles else 0.0
 
     failure_breakdown: dict[str, int] = {}
@@ -310,6 +310,7 @@ def _build_parser() -> argparse.ArgumentParser:
     p.add_argument("--model",       "-m", default="gemma3:12b",      help="Ollama model tag")
     p.add_argument("--prompts",     "-p", type=Path, default=DEFAULT_PROMPTS, help="prompts.json path")
     p.add_argument("--max",         "-n", type=int,  default=None,    help="Max prompts to run")
+    p.add_argument("--tag",               default=None,               help="Extra label appended to results filename (e.g. 'strict-v2')")
     p.add_argument("--temperature", "-t", type=float, default=0.2,    help="Sampling temperature (0=greedy)")
     p.add_argument("--retries",           type=int,  default=1,       help="Max retries per prompt on schema error")
     p.add_argument("--timeout",           type=float, default=180.0,  help="Per-call Ollama timeout (s)")
@@ -327,7 +328,7 @@ async def main() -> None:
         print(f"ERROR: prompts file not found: {prompts_path}", file=sys.stderr)
         sys.exit(1)
 
-    with open(prompts_path, encoding="utf-8") as fh:
+    with open(prompts_path, encoding="utf-8") as fh:  # noqa: ASYNC230
         all_prompts = json.load(fh)
 
     # _split='eval' guard prevents accidentally running training data
@@ -341,8 +342,10 @@ async def main() -> None:
 
     n          = len(eval_prompts)
     model_slug = re.sub(r"[^a-zA-Z0-9_\-.]", "_", args.model)
+    if args.tag:
+        model_slug = f"{model_slug}_{re.sub(r'[^a-zA-Z0-9_-]', '_', args.tag)}"
 
-    print(f"\n🌿 WildQuest Evaluator")
+    print("\n🌿 WildQuest Evaluator")
     print(f"   model       : {args.model}")
     print(f"   prompts     : {n}  (from {prompts_path.name})")
     print(f"   temperature : {args.temperature}")
@@ -380,7 +383,7 @@ async def main() -> None:
                 # Progress line
                 interests_str = ",".join(entry["interests"])
                 print(
-                    f"[{idx+1:2d}/{n}] id={str(entry.get('_id','?')):>3}  "
+                    f"[{idx+1:2d}/{n}] id={entry.get('_id','?')!s:>3}  "
                     f"{entry['setting']:<9} {entry['duration_minutes']:>3}min  "
                     f"{entry['energy_level']:<7} {entry['age_group']:<7} "
                     f"{interests_str:<25} ... ",
@@ -424,7 +427,7 @@ async def main() -> None:
         "metrics":     metrics,
         "results":     results,
     }
-    with open(out_path, "w", encoding="utf-8") as fh:
+    with open(out_path, "w", encoding="utf-8") as fh:  # noqa: ASYNC230
         json.dump(output, fh, indent=2)
     print(f"Saved → {out_path}\n")
 
